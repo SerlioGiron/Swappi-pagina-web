@@ -5,6 +5,7 @@ import {StickyNavbar} from "../components/StickyNavbar";
 import Marquee from "react-fast-marquee";
 import {CarouselDefault} from "../components/Como-funciona";
 import {SimpleFooter} from "../components/Footer";
+import { Beneficios } from "../components/Beneficios";
 
 export default function Home() {
     return (
@@ -76,6 +77,7 @@ export default function Home() {
                 </div>
             </div>
             <CarouselDefault />
+            <Beneficios />
             <SimpleFooter />
         </div>
     );
