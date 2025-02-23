@@ -27,8 +27,8 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="/Preguntas" className="flex items-center">
+          Preguntas Frecuentes
         </a>
       </Typography>
       <Typography
