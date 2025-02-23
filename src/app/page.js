@@ -6,6 +6,8 @@ import Marquee from "react-fast-marquee";
 import {CarouselDefault} from "../components/Como-funciona";
 import {SimpleFooter} from "../components/Footer";
 import { Beneficios } from "../components/Beneficios";
+import { BackgroundBlogCard } from "../components/BackgroundBlogCard";
+import { ODS } from "../components/ODS";
 
 export default function Home() {
     return (
@@ -35,10 +37,10 @@ export default function Home() {
                     color="black"
                     style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
                 >
-                    Intercambia, reutiliza y ahorra
+                    Swappi
                 </Typography>
-                <Typography variant="h3" color="black" style={{zIndex: 1}}>
-                    solo con swappi
+                <Typography variant="h5" color="gray" style={{zIndex: 1, textAlign: "center"}}>
+                    Intercambia lo que no usas y consigue lo que necesitas. Seguro, sostenible y sin complicaciones.
                 </Typography>
                 <Button style={{zIndex: 1}}>Conoce mas</Button>
 
@@ -76,6 +78,8 @@ export default function Home() {
                     </Marquee>
                 </div>
             </div>
+            <BackgroundBlogCard />
+            <ODS />
             <CarouselDefault />
             <Beneficios />
             <SimpleFooter />
