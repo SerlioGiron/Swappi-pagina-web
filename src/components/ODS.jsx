@@ -12,8 +12,8 @@ import {
 
 export function ODS() {
     return (
-        <div className="flex flex-row justify-center items-center gap-6 mt-10">
-            <Card className="max-w-[24rem] overflow-hidden">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-10 mb-10">
+            <Card className="w-[70vw] md:w-[30vw] overflow-hidden">
                 <CardHeader
                     floated={false}
                     shadow={false}
@@ -27,7 +27,7 @@ export function ODS() {
                 </CardHeader>
                 <CardBody>
                     <Typography variant="h4" color="blue-gray">
-                        ODS 11:
+                        ODS 11
                     </Typography>
                     <Typography
                         variant="lead"
@@ -39,7 +39,7 @@ export function ODS() {
                 </CardBody>
             </Card>
 
-            <Card className="max-w-[24rem] overflow-hidden">
+            <Card className="w-[70vw] md:w-[30vw] overflow-hidden">
                 <CardHeader
                     floated={false}
                     shadow={false}
@@ -53,7 +53,7 @@ export function ODS() {
                 </CardHeader>
                 <CardBody>
                     <Typography variant="h4" color="blue-gray">
-                        ODS 12:
+                        ODS 12
                     </Typography>
                     <Typography
                         variant="lead"
