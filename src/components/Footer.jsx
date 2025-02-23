@@ -1,53 +1,35 @@
 import { Typography } from "@material-tailwind/react";
+
+const links = ["Company", "About Us", "Team", "Products", "Blog", "Pricing"];
+const currentYear = new Date().getFullYear();
  
 export function SimpleFooter() {
   return (
-    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
-      <Typography color="blue-gray" className="font-normal">
-        &copy; 2023 Material Tailwind
-      </Typography>
-      <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            About Us
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            License
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            Contribute
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            Contact Us
-          </Typography>
-        </li>
-      </ul>
+    <footer className="px-8 py-28">
+      <div className="container mx-auto flex flex-col items-center">
+        <div className="flex flex-wrap items-center justify-center gap-8 pb-8">
+          {links.map((link, index) => (
+            <ul key={index}>
+              <li>
+                <Typography
+                  as="a"
+                  href="#"
+                  color="white"
+                  className="font-medium !text-gray-500 transition-colors hover:!text-gray-900"
+                >
+                  {link}
+                </Typography>
+              </li>
+            </ul>
+          ))}
+        </div>
+        <Typography
+          color="blue-gray"
+          className="mt-6 !text-sm !font-normal text-gray-500"
+        >
+          Copyright &copy; {currentYear} Material Tailwind
+        </Typography>
+      </div>
     </footer>
   );
 }

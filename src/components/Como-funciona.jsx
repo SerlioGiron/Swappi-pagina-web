@@ -66,7 +66,7 @@ export function CarouselDefault() {
                 image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
             },
         ].map((value, index) => (
-                <Card key={index} className="w-[80%] h-[70vh] mx-auto flex flex-row items-center shadow-none">
+                <Card key={index} className="w-[80%] h-[70vh] mx-auto flex flex-col  md:flex-row items-center shadow-none">
                     <CardHeader
                         shadow={false}
                         floated={false}

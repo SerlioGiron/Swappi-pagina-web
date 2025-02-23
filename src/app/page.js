@@ -33,7 +33,7 @@ export default function Home() {
                 <Typography
                     variant="h1"
                     color="black"
-                    style={{zIndex: 1, paddingTop: "30px"}}
+                    style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
                 >
                     Intercambia, reutiliza y ahorra
                 </Typography>

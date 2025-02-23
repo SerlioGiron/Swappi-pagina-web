@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Ahorro() {
     return (
-        <Card className="mt-6 w-96">
-            <CardBody>
+        <Card className="mt-6 w-[80vw] h-[20vh] md:w-[30vw] md:h-[30vh] items-center justify-center">
+            <CardBody className="flex flex-row items-center justify-center gap-4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -19,12 +19,14 @@ function Ahorro() {
                     />
                     <path d="M2.25 18a.75.75 0 0 0 0 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 0 0-.75-.75H2.25Z" />
                 </svg>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                    Sostenibilidad
-                </Typography>
-                <Typography>
-                    Reduce el desperdicio y apoya la economía circular
-                </Typography>
+                <div className="flex flex-col">
+                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                        Sostenibilidad
+                    </Typography>
+                    <Typography>
+                        Reduce el desperdicio y apoya la economía circular
+                    </Typography>
+                </div>
             </CardBody>
         </Card>
     );
@@ -32,8 +34,8 @@ function Ahorro() {
 
 function Sostenibilidad() {
     return (
-        <Card className="mt-6 w-96">
-            <CardBody>
+        <Card className="mt-6 w-[80vw] h-[20vh] md:w-[30vw] md:h-[30vh] items-center justify-center">
+            <CardBody className="flex flex-row items-center justify-center gap-4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -46,12 +48,14 @@ function Sostenibilidad() {
                         clip-rule="evenodd"
                     />
                 </svg>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                    Sostenibilidad
-                </Typography>
-                <Typography>
-                    Reduce el desperdicio y apoya la economía circular
-                </Typography>
+                <div className="flex flex-col">
+                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                        Sostenibilidad
+                    </Typography>
+                    <Typography>
+                        Reduce el desperdicio y apoya la economía circular
+                    </Typography>
+                </div>
             </CardBody>
         </Card>
     );
@@ -59,8 +63,8 @@ function Sostenibilidad() {
 
 function Comunidad() {
     return (
-        <Card className="mt-6 w-96">
-            <CardBody>
+        <Card className="mt-6 w-[80vw] h-[20vh] md:w-[30vw] md:h-[30vh] items-center justify-center">
+            <CardBody className="flex flex-row items-center justify-center gap-4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -73,20 +77,23 @@ function Comunidad() {
                         clip-rule="evenodd"
                     />
                 </svg>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                    Comunidad
-                </Typography>
-                <Typography>
-                    Exclusivo para universitarios, creando un ambiente confiable
-                </Typography>
+                <div className="flex flex-col">
+                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                        Comunidad
+                    </Typography>
+                    <Typography>
+                        Exclusivo para universitarios, creando un ambiente
+                        confiable
+                    </Typography>
+                </div>
             </CardBody>
         </Card>
     );
 }
 function Seguridad() {
     return (
-        <Card className="mt-6 w-96">
-            <CardBody>
+        <Card className="mt-6 w-[80vw] h-[20vh] md:w-[30vw] md:h-[30vh] items-center justify-center">
+            <CardBody className="flex flex-row items-center justify-center gap-4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -99,12 +106,15 @@ function Seguridad() {
                         clip-rule="evenodd"
                     />
                 </svg>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                    Seguridad
-                </Typography>
-                <Typography>
-                    Opciones de verificación de usuario y contratos inteligentes 
-                </Typography>
+                <div className="flex flex-col">
+                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                        Seguridad
+                    </Typography>
+                    <Typography>
+                        Opciones de verificación de usuario y contratos
+                        inteligentes
+                    </Typography>
+                </div>
             </CardBody>
         </Card>
     );
@@ -128,7 +138,7 @@ function Seguridad() {
 
 export function Beneficios() {
     return (
-        <div className="relative h-[110vh]">
+        <div className="relative h-[120vh] md:h-[110vh]">
             <Image
                 src="/assets/background.avif"
                 alt="Background"
@@ -143,11 +153,11 @@ export function Beneficios() {
             >
                 Beneficios
             </Typography>
-            <div className="flex flex-row justify-center gap-6 mt-10">
+            <div className="flex flex-col justify-center items-center md:flex-row md:gap-6 mt-10">
                 {Ahorro()}
                 {Sostenibilidad()}
             </div>
-            <div className="flex flex-row justify-center gap-6 ">
+            <div className="flex flex-col justify-center items-center md:flex-row md:gap-6 ">
                 {Comunidad()}
                 {Seguridad()}
             </div>
