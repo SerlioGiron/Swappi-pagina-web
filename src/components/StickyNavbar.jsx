@@ -37,7 +37,7 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/Blockchain" className="flex items-center">
           Blockchain
         </a>
       </Typography>
