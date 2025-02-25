@@ -27,7 +27,7 @@ import {
             color="white"
             className="mb-6 font-medium leading-[1.5]"
           >
-            SWAPPI permite a los jóvenes universitarios en Tegucigalpa intercambiar productos de forma segura y sin gastar dinero, promoviendo la sostenibilidad y la confianza a través de tecnología innovadora y una comunidad confiable.
+            SWAPPI permite a los jóvenes universitarios en Francisco Morazán y Cortés intercambiar productos de forma segura y sin gastar dinero, promoviendo la sostenibilidad y la confianza a través de tecnología innovadora y una comunidad confiable.
           </Typography>
         </CardBody>
       </Card>

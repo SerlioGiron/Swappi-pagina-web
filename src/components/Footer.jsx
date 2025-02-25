@@ -1,6 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 
-const links = [{"name": "Preguntas Frecuentes", "href": "Preguntas"}, {"name": "Blockchain", "href": "Blockchain"}, {"name": "Team", "href": "#"}, {"name": "Instagram", "href": "#"}];
+const links = [{"name": "Preguntas Frecuentes", "href": "Preguntas"}, {"name": "Blockchain", "href": "Blockchain"}, {"name": "Team", "href": "#"}, {"name": "Instagram", "href": "https://www.instagram.com/swappiswap?igsh=MWI5bmg5MmR4NW8xeQ=="}, {"name": "Figma", "href": "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416"}];
 const currentYear = new Date().getFullYear();
  
 export function SimpleFooter() {

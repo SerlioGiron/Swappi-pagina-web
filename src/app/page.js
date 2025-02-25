@@ -40,7 +40,7 @@ export default function Home() {
                     Swappi
                 </Typography>
                 <Typography variant="h5" color="gray" style={{zIndex: 1, textAlign: "center"}}>
-                    Intercambia lo que no usas y consigue lo que necesitas. Seguro, sostenible y sin complicaciones.
+                    Intercambia lo que no usas y consigue lo que necesitas.
                 </Typography>
                 <Button style={{zIndex: 1}}>Conoce mas</Button>
 
