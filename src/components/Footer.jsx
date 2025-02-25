@@ -27,7 +27,7 @@ export function SimpleFooter() {
           color="blue-gray"
           className="mt-6 !text-sm !font-normal text-gray-500"
         >
-          correo@gmail.com
+          swappiswapapp@gmail.com
         </Typography>
         <Typography
           color="blue-gray"
