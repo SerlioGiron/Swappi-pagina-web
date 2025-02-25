@@ -42,7 +42,7 @@ export default function Home() {
                 <Typography variant="h5" color="gray" style={{zIndex: 1, textAlign: "center"}}>
                     Intercambia lo que no usas y consigue lo que necesitas.
                 </Typography>
-                <Button style={{zIndex: 1}}>Conoce mas</Button>
+                <Button onClick={() => window.location.href = "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416"} style={{zIndex: 1}}>Conoce mas</Button>
 
                 <div
                     style={{
