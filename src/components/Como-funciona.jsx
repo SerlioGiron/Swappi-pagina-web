@@ -12,7 +12,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 export function CarouselDefault() {
     return (
         <Carousel
-            className=""
+            className="pb-20 bg-white"
             prevArrow={({handlePrev}) => (
                 <IconButton
                     variant="text"

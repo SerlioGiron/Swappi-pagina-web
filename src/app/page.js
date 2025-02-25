@@ -11,7 +11,7 @@ import { ODS } from "../components/ODS";
 
 export default function Home() {
     return (
-        <div>
+        <div className="">
           <StickyNavbar />
             <div
                 style={{

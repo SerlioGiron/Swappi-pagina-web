@@ -21,10 +21,10 @@ function Ahorro() {
                 </svg>
                 <div className="flex flex-col">
                     <Typography variant="h5" color="blue-gray" className="mb-2">
-                        Sostenibilidad
+                        Ahorro económico
                     </Typography>
                     <Typography>
-                        Reduce el desperdicio y apoya la economía circular
+                        No necesitas dinero para acceder a lo que necesitas
                     </Typography>
                 </div>
             </CardBody>

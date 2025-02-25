@@ -7,15 +7,19 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient-background {
+  background: radial-gradient(circle, rgb(255, 162, 0) 0%, rgba(148,187,233,1) 100%);
 }
