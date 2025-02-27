@@ -17,7 +17,7 @@ import {
           floated={false}
           shadow={false}
           color="transparent"
-          className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('/assets/premium_photo-1678917827802-721b5f5b4bf0.avif')] bg-cover bg-center"
+          className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center"
         >
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
         </CardHeader>

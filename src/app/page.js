@@ -34,12 +34,12 @@ export default function Home() {
                 />
                 <Typography
                     variant="h1"
-                    color="black"
+                    className="text-blue-500"
                     style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
                 >
                     Swappi
                 </Typography>
-                <Typography variant="h5" color="gray" style={{zIndex: 1, textAlign: "center"}}>
+                <Typography variant="h5" className="text-blue-500" style={{zIndex: 1, textAlign: "center"}}>
                     Intercambia lo que no usas y consigue lo que necesitas.
                 </Typography>
                 <Button onClick={() => window.location.href = "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416"} style={{zIndex: 1}}>Conoce mas</Button>
@@ -66,7 +66,7 @@ export default function Home() {
                             <Typography
                                 key={index}
                                 variant="h5"
-                                color="black"
+                                className="text-blue-800"
                                 style={{
                                     marginRight: "40px",
                                     paddingTop: "30px",

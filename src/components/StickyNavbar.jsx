@@ -24,8 +24,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-blue-800 hover:text-blue-500"
       >
         <a href="/Preguntas" className="flex items-center">
           Preguntas Frecuentes
@@ -34,8 +33,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-blue-800 hover:text-blue-500"
       >
         <a href="/Blockchain" className="flex items-center">
           Blockchain
@@ -44,8 +42,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-blue-800 hover:text-blue-500"
       >
         <a href="#" className="flex items-center">
           Team
@@ -54,8 +51,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-blue-800 hover:text-blue-500"
       >
         <a href="https://www.instagram.com/swappiswap?igsh=MWI5bmg5MmR4NW8xeQ==" className="flex items-center">
           Instagram
@@ -64,8 +60,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-blue-800 hover:text-blue-500"
       >
         <a href="https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416" className="flex items-center">
           Figma
@@ -81,7 +76,7 @@ export function StickyNavbar() {
           <Typography
             as="a"
             href="/"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-blue-800"
           >
             Swappi
           </Typography>

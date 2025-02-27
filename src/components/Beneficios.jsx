@@ -9,7 +9,7 @@ function Ahorro() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="mb-4 h-12 w-12 text-gray-900"
+                    className="mb-4 h-12 w-12 text-blue-900"
                 >
                     <path d="M12 7.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z" />
                     <path
@@ -20,10 +20,10 @@ function Ahorro() {
                     <path d="M2.25 18a.75.75 0 0 0 0 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 0 0-.75-.75H2.25Z" />
                 </svg>
                 <div className="flex flex-col">
-                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                    <Typography variant="h5" color="blue-gray" className=" text-blue-900 mb-2">
                         Ahorro económico
                     </Typography>
-                    <Typography>
+                    <Typography className="text-blue-900">
                         No necesitas dinero para acceder a lo que necesitas
                     </Typography>
                 </div>
@@ -40,7 +40,7 @@ function Sostenibilidad() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="mb-4 h-12 w-12 text-gray-900"
+                    class="mb-4 h-12 w-12 text-blue-900"
                 >
                     <path
                         fill-rule="evenodd"
@@ -49,10 +49,10 @@ function Sostenibilidad() {
                     />
                 </svg>
                 <div className="flex flex-col">
-                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                    <Typography variant="h5" color="blue-gray" className="mb-2 text-blue-900">
                         Sostenibilidad
                     </Typography>
-                    <Typography>
+                    <Typography className="text-blue-900">
                         Reduce el desperdicio y apoya la economía circular
                     </Typography>
                 </div>
@@ -69,7 +69,7 @@ function Comunidad() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="mb-4 h-12 w-12 text-gray-900"
+                    class="mb-4 h-12 w-12 text-blue-900 "
                 >
                     <path
                         fill-rule="evenodd"
@@ -78,10 +78,10 @@ function Comunidad() {
                     />
                 </svg>
                 <div className="flex flex-col">
-                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                    <Typography variant="h5" color="blue-gray" className="mb-2 text-blue-900">
                         Comunidad
                     </Typography>
-                    <Typography>
+                    <Typography className="text-blue-900">
                         Exclusivo para universitarios, creando un ambiente
                         confiable
                     </Typography>
@@ -98,7 +98,7 @@ function Seguridad() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="mb-4 h-12 w-12 text-gray-900"
+                    class="mb-4 h-12 w-12 text-blue-900"
                 >
                     <path
                         fill-rule="evenodd"
@@ -107,10 +107,10 @@ function Seguridad() {
                     />
                 </svg>
                 <div className="flex flex-col">
-                    <Typography variant="h5" color="blue-gray" className="mb-2">
+                    <Typography variant="h5" color="blue-gray" className="mb-2 text-blue-900">
                         Seguridad
                     </Typography>
-                    <Typography>
+                    <Typography className="text-blue-900">
                         Opciones de verificación de usuario y contratos
                         inteligentes
                     </Typography>
@@ -149,7 +149,7 @@ export function Beneficios() {
             />
             <Typography
                 color="blue-gray"
-                className="text-3xl font-bold text-center pt-10"
+                className="text-3xl text-blue-900 font-bold text-center pt-10"
             >
                 Beneficios
             </Typography>
