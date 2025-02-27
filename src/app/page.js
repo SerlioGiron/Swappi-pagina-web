@@ -25,19 +25,19 @@ export default function Home() {
                     backgroundColor: "white", // Blue with low opacity
                 }}
             >
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-col items-center">
                     <Image
                         src="/assets/1.png"
                         quality={100}
-                        width={128}
-                        height={128}
+                        width={256}
+                        height={256}
                     />
                     <Typography
                         variant="h1"
                         className="text-orange-900"
                         style={{
                             zIndex: 1,
-                            paddingTop: "30px",
+                            paddingTop: "6px",
                             textAlign: "center",
                         }}
                     >
