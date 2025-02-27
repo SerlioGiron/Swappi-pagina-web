@@ -7,7 +7,7 @@ export default function AI() {
     return (
         <div>
             <StickyNavbar />
-            <div className=" gradient-background py-20">
+            <div className=" gradient-background2 py-20">
                 <Card className="w-[75vw] mx-auto p-4 p-10">
                     <img
                         className="h-[70vh] w-full rounded-lg object-cover object-center pb-6"

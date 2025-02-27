@@ -7,7 +7,7 @@ export default function Team() {
     return (
         <div>
             <StickyNavbar />
-            <div className="bg-gray-900 py-20">
+            <div className="bg-[#c7b3ac] py-20">
                 <Card className="w-[75vw] mx-auto p-4 p-10 justify-center items-center">
                     <img
                         className=" h-[70vh] w-full rounded-lg object-contain pb-6"

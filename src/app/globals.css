@@ -23,3 +23,7 @@ body {
 .gradient-background {
   background: radial-gradient(circle, rgb(255, 162, 0) 0%, rgba(148,187,233,1) 100%);
 }
+
+.gradient-background2 {
+  background: radial-gradient(circle, rgba(254,29,145,255) 30%, rgba(2,216,254,255) 100%);
+}
