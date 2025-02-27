@@ -3,7 +3,7 @@ import {Typography} from "@material-tailwind/react";
 const links = [
     {name: "Preguntas Frecuentes", href: "Preguntas"},
     {name: "Blockchain", href: "Blockchain"},
-    {name: "Team", href: "#"},
+    {name: "Team", href: "/Team"},
     {
         name: "Instagram",
         href: "https://www.instagram.com/swappiswap?igsh=MWI5bmg5MmR4NW8xeQ==",
