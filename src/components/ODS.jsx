@@ -12,7 +12,10 @@ import {
 
 export function ODS() {
     return (
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-10 mb-10">
+        <div
+            className="flex flex-col md:flex-row justify-center items-center gap-6 p-10"
+            style={{ backgroundImage: "url('/assets/bg3.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+        >
             <Card className="w-[70vw] md:w-[30vw] overflow-hidden">
                 <CardHeader
                     floated={false}
@@ -21,7 +24,7 @@ export function ODS() {
                     className="m-0 rounded-none"
                 >
                     <img
-                        src="https://plus.unsplash.com/premium_photo-1682960970812-9d1b2eeb23dc?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://plus.unsplash.com/premium_photo-1682960970812-9d1b2eeb23dc?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&fA%3D%3D"
                         alt="ui/ux review check"
                     />
                 </CardHeader>

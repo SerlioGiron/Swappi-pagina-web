@@ -25,21 +25,25 @@ export default function Home() {
                     backgroundColor: "white", // Blue with low opacity
                 }}
             >
-                {/* <Image
-                    src="/assets/bg2.jpg"
-                    alt="Background"
-                    layout="fill"
-                    objectFit="cover"
-                    quality={100}
-                    style={{zIndex: -1}}
-                /> */}
-                <Typography
-                    variant="h1"
-                    className="text-orange-900"
-                    style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
-                >
-                    SWAPPI
-                </Typography>
+                <div className="flex flex-row items-center">
+                    <Image
+                        src="/assets/bg5.png"
+                        quality={100}
+                        width={128}
+                        height={128}
+                    />
+                    <Typography
+                        variant="h1"
+                        className="text-orange-900"
+                        style={{
+                            zIndex: 1,
+                            paddingTop: "30px",
+                            textAlign: "center",
+                        }}
+                    >
+                        SWAPPI
+                    </Typography>
+                </div>
                 <Typography
                     variant="h5"
                     className="text-orange-900"
@@ -52,10 +56,10 @@ export default function Home() {
                         (window.location.href =
                             "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416")
                     }
-                    className="bg-transparent text-blue-900 shadow-xl hover:shadow-3xl"
+                    className="bg-[#1ab1bc] text-white shadow-xl hover:shadow-3xl"
                     style={{zIndex: 1}}
                 >
-                    Conoce mas
+                    Conoce más
                 </Button>
 
                 <div

@@ -24,7 +24,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal text-blue-800 hover:text-blue-500"
+        className="p-1 font-normal text-white hover:text-black"
       >
         <a href="/Preguntas" className="flex items-center">
           Preguntas Frecuentes
@@ -33,7 +33,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal text-blue-800 hover:text-blue-500"
+        className="p-1 font-normal text-white hover:text-black"
       >
         <a href="/Blockchain" className="flex items-center">
           Blockchain
@@ -42,7 +42,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal text-blue-800 hover:text-blue-500"
+        className="p-1 font-normal text-white hover:text-black"
       >
         <a href="#" className="flex items-center">
           Team
@@ -51,7 +51,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal text-blue-800 hover:text-blue-500"
+        className="p-1 font-normal text-white hover:text-black"
       >
         <a href="https://www.instagram.com/swappiswap?igsh=MWI5bmg5MmR4NW8xeQ==" className="flex items-center">
           Instagram
@@ -60,7 +60,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal text-blue-800 hover:text-blue-500"
+        className="p-1 font-normal text-white hover:text-black"
       >
         <a href="https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416" className="flex items-center">
           Figma
@@ -71,12 +71,12 @@ export function StickyNavbar() {
  
   return (
     <div className="max-h-[768px] ">
-      <Navbar className="bg-[#9DD9F3] sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="bg-[#1ab1bc] sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             href="/"
-            className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-blue-400"
+            className="mr-4 cursor-pointer py-1.5 font-bold text-2xl text-white"
           >
             SWAPPI
           </Typography>
