@@ -44,6 +44,15 @@ export function StickyNavbar() {
         variant="small"
         className="p-1 font-normal text-white hover:text-black"
       >
+        <a href="/AI" className="flex items-center">
+          AI
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        className="p-1 font-normal text-white hover:text-black"
+      >
         <a href="#" className="flex items-center">
           Team
         </a>
