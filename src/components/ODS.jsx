@@ -9,12 +9,14 @@ import {
     Avatar,
     Tooltip,
   } from "@material-tailwind/react";
+import Image from "next/image";
+
 
 export function ODS() {
     return (
         <div
             className="flex flex-col md:flex-row justify-center items-center gap-6 p-10"
-            style={{ backgroundImage: "url('/assets/bg3.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+            // style={{ backgroundImage: "url('/assets/background.avif')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: 'rgba(255, 255, 255, 0.2)', backgroundBlendMode: 'overlay' }}
         >
             <Card className="w-[70vw] md:w-[30vw] overflow-hidden">
                 <CardHeader
@@ -29,13 +31,13 @@ export function ODS() {
                     />
                 </CardHeader>
                 <CardBody>
-                    <Typography variant="h4" className="text-blue-800">
+                    <Typography variant="h4" className="text-black">
                         ODS 11
                     </Typography>
                     <Typography
                         variant="lead"
                         color="gray"
-                        className="mt-3 font-normal text-blue-800"
+                        className="mt-3 font-normal text-black"
                     >
                         Ciudades y comunidades sostenibles
                     </Typography>
@@ -55,13 +57,13 @@ export function ODS() {
                     />
                 </CardHeader>
                 <CardBody>
-                    <Typography variant="h4" className="text-blue-800">
+                    <Typography variant="h4" className="text-black">
                         ODS 12
                     </Typography>
                     <Typography
                         variant="lead"
                         color="gray"
-                        className="mt-3 font-normal text-blue-800"
+                        className="mt-3 font-normal text-black"
                     >
                         Producción y consumo responsables
                     </Typography>

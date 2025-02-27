@@ -25,9 +25,9 @@ export default function Home() {
                     backgroundColor: "white", // Blue with low opacity
                 }}
             >
-                <div className="flex flex-row items-center">
+                <div className="flex flex-col md:flex-row items-center">
                     <Image
-                        src="/assets/bg5.png"
+                        src="/assets/1.png"
                         quality={100}
                         width={128}
                         height={128}

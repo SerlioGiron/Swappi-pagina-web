@@ -17,7 +17,7 @@ const currentYear = new Date().getFullYear();
 
 export function SimpleFooter() {
     return (
-      <footer className="px-8 py-28 bg-white">
+      <footer className="px-8 py-28 bg-[#1ab1bc]">
         <div className="container mx-auto flex flex-col items-center">
           <div className="flex flex-wrap items-center justify-center gap-8 pb-8">
             {links.map((link, index) => (
@@ -26,7 +26,7 @@ export function SimpleFooter() {
                   <Typography
                     as="a"
                     href={link.href}
-                    className="font-medium text-blue-500 hover:text-blue-900"
+                    className="font-medium text-white hover:text-black"
                   >
                     {link.name}
                   </Typography>
@@ -35,12 +35,12 @@ export function SimpleFooter() {
             ))}
           </div>
           <Typography
-            className="mt-6 text-blue-500 !text-sm !font-normal"
+            className="mt-6 text-white !text-sm !font-normal"
           >
             swappiswapapp@gmail.com
           </Typography>
           <Typography
-            className="mt-6 text-blue-500 !text-sm !font-normal"
+            className="mt-6 text-white !text-sm !font-normal"
           >
             Copyright &copy; {currentYear} Material Tailwind
           </Typography>

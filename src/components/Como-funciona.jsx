@@ -19,7 +19,7 @@ export function CarouselDefault() {
                     color="white"
                     size="lg"
                     onClick={handlePrev}
-                    className="!absolute left-4 top-1/2 -translate-y-1/2 bg-blue-700 hover:bg-gray-900 text-white"
+                    className="!absolute left-4 top-1/2 -translate-y-1/2 bg-black hover:bg-gray-900 text-white"
                 >
                     <ChevronLeftIcon className="h-6 w-6" />
                 </IconButton>
@@ -30,7 +30,7 @@ export function CarouselDefault() {
                     color="white"
                     size="lg"
                     onClick={handleNext}
-                    className="!absolute right-4 top-1/2 -translate-y-1/2 bg-blue-700 hover:bg-gray-900 text-white"
+                    className="!absolute right-4 top-1/2 -translate-y-1/2 bg-black hover:bg-gray-900 text-white"
                 >
                     <ChevronRightIcon className="h-6 w-6" />
                 </IconButton>
@@ -41,7 +41,7 @@ export function CarouselDefault() {
                         <span
                             key={i}
                             className={`block h-2 w-2 cursor-pointer rounded-full ${
-                                activeIndex === i ? "bg-blue-900" : "bg-blue-500"
+                                activeIndex === i ? "bg-blue-200" : "bg-black"
                             }`}
                             onClick={() => setActiveIndex(i)}
                         />
@@ -79,7 +79,7 @@ export function CarouselDefault() {
                         />
                     </CardHeader>
                     <CardBody className="text-center">
-                        <Typography variant="h4" color="blue-gray" className="mb-2 text-blue-800">
+                        <Typography variant="h4" color="blue-gray" className="mb-2 text-black">
                             {value.title}
                         </Typography>
                     </CardBody>
