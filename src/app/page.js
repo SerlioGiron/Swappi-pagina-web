@@ -5,23 +5,23 @@ import {StickyNavbar} from "../components/StickyNavbar";
 import Marquee from "react-fast-marquee";
 import {CarouselDefault} from "../components/Como-funciona";
 import {SimpleFooter} from "../components/Footer";
-import { Beneficios } from "../components/Beneficios";
-import { BackgroundBlogCard } from "../components/BackgroundBlogCard";
-import { ODS } from "../components/ODS";
+import {Beneficios} from "../components/Beneficios";
+import {BackgroundBlogCard} from "../components/BackgroundBlogCard";
+import {ODS} from "../components/ODS";
 
 export default function Home() {
     return (
         <div className="">
-          <StickyNavbar />
+            <StickyNavbar />
             <div
                 style={{
-                  height: "90vh",
-                  position: "relative",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexDirection: "column",
-                  gap: "20px",
+                    height: "90vh",
+                    position: "relative",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column",
+                    gap: "20px",
                 }}
             >
                 <Image
@@ -34,15 +34,28 @@ export default function Home() {
                 />
                 <Typography
                     variant="h1"
-                    className="text-blue-500"
+                    className="text-blue-900"
                     style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
                 >
                     Swappi
                 </Typography>
-                <Typography variant="h5" className="text-blue-500" style={{zIndex: 1, textAlign: "center"}}>
+                <Typography
+                    variant="h5"
+                    className="text-blue-900"
+                    style={{zIndex: 1, textAlign: "center"}}
+                >
                     Intercambia lo que no usas y consigue lo que necesitas.
                 </Typography>
-                <Button onClick={() => window.location.href = "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416"} style={{zIndex: 1}}>Conoce mas</Button>
+                <Button
+                    onClick={() =>
+                        (window.location.href =
+                            "https://www.figma.com/proto/VgMJVz0a5cCWnNjFUL5AZq/Untitled-(Copy)?node-id=1-2&t=NIPoTQMrLODQN90w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2060%3A416")
+                    }
+                    className="bg-transparent text-blue-900 shadow-xl hover:shadow-3xl"
+                    style={{zIndex: 1}}
+                >
+                    Conoce mas
+                </Button>
 
                 <div
                     style={{
