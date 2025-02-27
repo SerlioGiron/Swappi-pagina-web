@@ -23,6 +23,7 @@ export default function Home() {
                     flexDirection: "column",
                     gap: "20px",
                     backgroundColor: "white", // Blue with low opacity
+                    paddingBottom: "70px",
                 }}
             >
                 <div className="flex flex-col md:flex-col items-center">
