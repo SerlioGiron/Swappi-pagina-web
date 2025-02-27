@@ -11,7 +11,7 @@ export default function Team() {
                 <Card className="w-[75vw] mx-auto p-4 p-10 justify-center items-center">
                     <img
                         className=" h-[70vh] w-full rounded-lg object-contain pb-6"
-                        src="/assets/team.jpg"
+                        src="/assets/Team.jpg"
                         alt="nature image"
                     />
                     <p className="mt-4 text-base md:text-lg lg:text-xl text-blue-gray-600">
