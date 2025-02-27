@@ -22,26 +22,27 @@ export default function Home() {
                     alignItems: "center",
                     flexDirection: "column",
                     gap: "20px",
+                    backgroundColor: "white", // Blue with low opacity
                 }}
             >
-                <Image
-                    src="/assets/background.avif"
+                {/* <Image
+                    src="/assets/bg2.jpg"
                     alt="Background"
                     layout="fill"
                     objectFit="cover"
                     quality={100}
-                    style={{opacity: 0.2, zIndex: -1}}
-                />
+                    style={{zIndex: -1}}
+                /> */}
                 <Typography
                     variant="h1"
-                    className="text-blue-900"
+                    className="text-orange-900"
                     style={{zIndex: 1, paddingTop: "30px", textAlign: "center"}}
                 >
-                    Swappi
+                    SWAPPI
                 </Typography>
                 <Typography
                     variant="h5"
-                    className="text-blue-900"
+                    className="text-orange-900"
                     style={{zIndex: 1, textAlign: "center"}}
                 >
                     Intercambia lo que no usas y consigue lo que necesitas.
@@ -79,7 +80,7 @@ export default function Home() {
                             <Typography
                                 key={index}
                                 variant="h5"
-                                className="text-blue-800"
+                                className="text-gray-800"
                                 style={{
                                     marginRight: "40px",
                                     paddingTop: "30px",
