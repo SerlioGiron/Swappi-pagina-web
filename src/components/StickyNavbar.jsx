@@ -53,7 +53,7 @@ export function StickyNavbar() {
         variant="small"
         className="p-1 font-normal text-white hover:text-black"
       >
-        <a href="#" className="flex items-center">
+        <a href="/Team" className="flex items-center">
           Team
         </a>
       </Typography>

@@ -3,7 +3,7 @@ import {SimpleFooter} from "@/components/Footer";
 import {StickyNavbar} from "@/components/StickyNavbar";
 import {Card, Typography} from "@material-tailwind/react";
 
-export default function Blockchain() {
+export default function AI() {
     return (
         <div>
             <StickyNavbar />
