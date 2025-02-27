@@ -14,8 +14,8 @@ export default function Home() {
         <div className="">
             <StickyNavbar />
             <div
+                className="h-[75vh] md:h-[90vh]"
                 style={{
-                    height: "90vh",
                     position: "relative",
                     display: "flex",
                     justifyContent: "center",
