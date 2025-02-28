@@ -32,14 +32,14 @@ export function ODS() {
                 </CardHeader>
                 <CardBody>
                     <Typography variant="h4" className="text-black">
-                        ODS 11
+                        ODS 13
                     </Typography>
                     <Typography
                         variant="lead"
                         color="gray"
                         className="mt-3 font-normal text-black"
                     >
-                        Ciudades y comunidades sostenibles
+                        Acción por el clima
                     </Typography>
                 </CardBody>
             </Card>
